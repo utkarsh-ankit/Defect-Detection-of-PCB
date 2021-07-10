@@ -56,8 +56,7 @@ This folder is used by Flask.
 
 
 >> In the static folder you can check test images. 
-[ good ().jpeg images are of good quality, and bad().jpeg are of bad quality, so when you run model, *you can compare the result with the file name*. 
-That's why I used the file name in that manner. ]. 
+[ The file named as "good ().jpeg" and bad().jpeg are of good and bad quality PCB images respectively. The Result (Good) and (Bad) written on the right side of the file name inside the BRACKET is the predicted result. So, you can compare the result with the file name. That's why I used the file name in that manner. ]. 
 This folder is used by Flask.
  
 
