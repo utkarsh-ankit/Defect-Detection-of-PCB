@@ -6,7 +6,7 @@ Setup and Important Instruction:-
 
 1. Jupyter Notebook
 2. Python 3.7.1
-3. Libraries - Tensorflow, Keras, Pandas, Numpy, Matplotlib, OpenCV, Pillow, Flask.   (all latest version) .
+3. Libraries - Tensorflow, Keras, Pandas, Numpy, Matplotlib, OpenCV, Pillow, Flask.   [all latest version]
 Note- I used Windows 10 OS.
 
 *I will suggest to download whole repository in you computer's drive where Jupyter Notebook can access these files directly.*
