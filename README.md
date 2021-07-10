@@ -48,7 +48,7 @@ After training, which almost took an hour in Google Colab, the model's weight is
  <div align=center>
   Graph of "Loss vs Epochs" and "Accuracy vs Epochs" respectively.
  </div>
-<br/>
+
 ***
 
 ### Results
