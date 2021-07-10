@@ -32,15 +32,33 @@ Note- I used Windows 10 OS.
 
 Important Information:-
 
->> First file "defect_pred_i.ipynb" - It is the main file on which I created my Model and trained it. I will suggest not to run this file but see whole model architecture in details. If you want to run then skip the particular cell in which training takes place.
 
->> Second file "prediction_model_i.ipynb" - I save the trained weight file "model.h5" from "defect_pred_i.ipynb". And created a new notebook which check the image quality one by one. I suggest you to run this file and check the results by picking up images from 'dataset/test/test5/'   location.   Note:- Remember to put the image-path inside-      r"(Image-path)"          .                                
+>> First file "defect_pred_i.ipynb" - It is the main file on which I created my Model and trained it. 
+I will suggest not to run this file but see whole model architecture in details. 
+If you want to run then skip the particular cell in which training takes place.
 
->> Third file "app_predt_i.ipynb" - It is the web application file I made using Flask to run the prediction model. For running this, make sure the location you downloaded is right for Jupyter notebook to access. The folder it uses are  /templates/ for accessing HTML files and /static/ for image files, "so don't rename these files". After running every cell, it will give a url. After clicking on it, a web page will open. Select and Upload the image there and in the next page you will get the image will it's result.
 
->> In the templates folder you can check the HTML files which I created. This folder is used by Flask.
+>> Second file "prediction_model_i.ipynb" - I save the trained weight file "model.h5" from "defect_pred_i.ipynb". 
+And created a new notebook which check the image quality one by one. 
+I suggest you to run this file and check the results by picking up images from 'dataset/test/test5/'   location.   
+Note:- Remember to put the image-path inside-      r"(Image-path)"          .                                
 
->> In the static folder you can check test images. [ good ().jpeg images are of good quality, and bad().jpeg are of bad quality, so when you run model, *you can compare the result with the file name*. That's why I used the file name in that manner. ]. This folder is used by Flask.
+
+>> Third file "app_predt_i.ipynb" - It is the web application file I made using Flask to run the prediction model. 
+For running this, make sure the location you downloaded is right for Jupyter notebook to access. 
+The folder it uses are  /templates/ for accessing HTML files and /static/ for image files, "so don't rename these files". 
+After running every cell, it will give a url. After clicking on it, a web page will open. 
+Select and Upload the image there and in the next page you will get the image will it's result.
+
+
+>> In the templates folder you can check the HTML files which I created. 
+This folder is used by Flask.
+
+
+>> In the static folder you can check test images. 
+[ good ().jpeg images are of good quality, and bad().jpeg are of bad quality, so when you run model, *you can compare the result with the file name*. 
+That's why I used the file name in that manner. ]. 
+This folder is used by Flask.
  
 
 
