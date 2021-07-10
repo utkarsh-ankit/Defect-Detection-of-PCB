@@ -34,8 +34,8 @@ Important Information:-
 
 
 >> First file "defect_pred_i.ipynb" - It is the main file on which I created my Model and trained it. 
-I will suggest not to run this file but see whole model architecture in details. 
-If you want to run then skip the particular cell in which training takes place.
+I will suggest "not" to run this file but to see whole model architecture in details. 
+But if you want to run then skip the particular cell in which training takes place.
 
 
 >> Second file "prediction_model_i.ipynb" - I save the trained weight file "model.h5" from "defect_pred_i.ipynb". 
