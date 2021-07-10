@@ -62,6 +62,6 @@ This folder is used by Flask.
  
 
 
-Note:- Remember to put the image-path inside-      r"(Image-path)"  .
+Note:- Remember to put the image-path inside-      r"(Image-path)"   .
 
 
