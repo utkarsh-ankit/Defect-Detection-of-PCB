@@ -1,6 +1,6 @@
 ***
 
-# Web Application for PCB Defect Detection
+# Designing of PCB Defect Detection Model and it's Web Application
 
 ***
 
