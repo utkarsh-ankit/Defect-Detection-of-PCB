@@ -4,20 +4,23 @@
 
 ***
 
+**Note**:- For setup related instruction, kindly open and follow "[Setup_Instruction_File.txt](Setup_Instruction_File.txt)".
+- Main File:- "[defect_pred_i.ipynb](defect_pred_i.ipynb)"
+- Prediction File:- "[prediction_model_i.ipynb](prediction_model_i.ipynb)"
+- Web Application File:- "[app_predt_i.ipynb](app_predt_i.ipynb)"
+- Trained Weight File:- "[model.h5](model.h5)"
+- [dataset](dataset) folder contains image sets used for training and testing purposes.
+- [static](static) folder contains test images (used by Flask).
+- [templates](templates) folder contains HTML files (used by Flask).
+
+***
 ## Defect-Detection of PCB using Deep Learning
 
 ### Abstract
 This is a PCB(Printed Circuit Board) Defect Detection Model. The images of PCB are in Binary Format i.e. Black and White, where the black part denotes the circuit's
 component. There are different kinds of defects found in the circuits, which is usually denoted by a small white or black patch in the image.
 
-**Note**:- For setup related instruction, kindly open and follow "[Setup_Instruction_File.txt](Setup_Instruction_File.txt)".
-- Main File:- "[defect_pred_i.ipynb](defect_pred_i.ipynb)"
-- Prediction File:- "[prediction_model_i.ipynb](prediction_model_i.ipynb)"
-- Web Application File:- "[app_predt_i.ipynb](app_predt_i.ipynb)"
-- Trained Weight File:- "[model.h5](model.h5)"
-
 ***
-
 ### Dataset
 
 DeepPCB dataset used here and can be accessed from [here](https://github.com/tangsanli5201/DeepPCB). The Image is of JPEG format and with dimensions of 640x640. I reduced the size of images to 224x224 using the Anti-Aliasing technique, which reduces the size without major loss in the quality of the image.
