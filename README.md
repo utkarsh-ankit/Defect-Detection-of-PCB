@@ -10,6 +10,8 @@
 This is a PCB(Printed Circuit Board) Defect Detection Model. The images of PCB are in Binary Format i.e. Black and White, where the black part denotes the circuit's
 component. There are different kinds of defects found in the circuits, which is usually denoted by a small white or black patch in the image.
 
+**Note**:- For setup related instruction, kindly open and follow "Setup_Instruction_File.txt".
+
 
 ### Dataset
 
