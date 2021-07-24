@@ -10,12 +10,17 @@
 This is a PCB(Printed Circuit Board) Defect Detection Model. The images of PCB are in Binary Format i.e. Black and White, where the black part denotes the circuit's
 component. There are different kinds of defects found in the circuits, which is usually denoted by a small white or black patch in the image.
 
-**Note**:- For setup related instruction, kindly open and follow "Setup_Instruction_File.txt".
+**Note**:- For setup related instruction, kindly open and follow "[Setup_Instruction_File.txt](Setup_Instruction_File.txt)".
+- Main File:- "[defect_pred_i.ipynb](defect_pred_i.ipynb)"
+- Prediction File:- "[prediction_model_i.ipynb](prediction_model_i.ipynb)"
+- Web Application File:- "[app_predt_i.ipynb](app_predt_i.ipynb)"
+- Trained Weight File:- "[model.h5](model.h5)"
 
+***
 
 ### Dataset
 
-DeepPCB dataset used here and can be accessed from [here](https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB). The Image is of JPEG format and with dimensions of 640x640. I reduced the size of images to 224x224 using the Anti-Aliasing technique, which reduces the size without major loss in the quality of the image.
+DeepPCB dataset used here and can be accessed from [here](https://github.com/tangsanli5201/DeepPCB). The Image is of JPEG format and with dimensions of 640x640. I reduced the size of images to 224x224 using the Anti-Aliasing technique, which reduces the size without major loss in the quality of the image.
 
 <div align=center><img src="https://user-images.githubusercontent.com/47279340/125171710-2761c500-e1d3-11eb-93e1-c444fd3c78bf.jpeg" width="300" style="margin:20">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
